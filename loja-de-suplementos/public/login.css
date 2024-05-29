@@ -1,0 +1,120 @@
+
+
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://pulseacademia.com.br/2020/wp-content/uploads/2020/02/motivos-para-ir-para-academia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9); /* Cinza transparente */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#titleForm {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+
+.input-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.input-container .icon {
+    margin-right: 10px;
+    color: #888;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+.containerBotao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.cancel {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.textcolor {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.perfil-link {
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.perfil-link a {
+    color: #ff0000; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+}
+
+.perfil-link a:hover {
+    color: #cc0000; 
+    text-decoration: underline;
+}

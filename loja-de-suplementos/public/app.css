@@ -1,0 +1,59 @@
+/* Estilos para o header */
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #343a40; /* Cor de fundo escura */
+    padding: 10px;
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+}
+
+/* Estilos para a logo */
+.logo {
+    margin-left: 20px; /* Adiciona espaçamento à esquerda */
+}
+
+.logo img {
+    width: 90px; /* Largura da logo */
+    height: auto;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 40px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto branco */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    transition: color 0.3s ease; /* Transição suave de cor ao passar o mouse */
+}
+
+nav ul li a:hover {
+    color: #e73a0e; /* Cor amarela ao passar o mouse */
+}
+
+/* Estilos para o ícone do perfil */
+.profile-icon {
+    margin-left: auto; /* Empurra o ícone do perfil para a direita */
+    margin-right: 20px;
+}
+
+.profile-icon img {
+    width: 30px; /* Largura do ícone do perfil */
+    height: auto;
+}

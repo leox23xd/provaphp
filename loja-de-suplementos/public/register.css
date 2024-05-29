@@ -1,0 +1,130 @@
+.register-page {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(https://pulseacademia.com.br/2020/wp-content/uploads/2020/02/motivos-para-ir-para-academia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 8rem;
+}
+
+.register-page #titleForm {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #333;
+}
+
+.register-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Adiciona centralização vertical */
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.9); /* Cinza transparente */
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+
+.register-page form label {
+    align-self: flex-start; /* Alinha os rótulos ao topo */
+    margin-bottom: 10px; /* Adiciona espaço entre os rótulos e os campos */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Lufga Regular";
+    width: 100%; /* Altera a largura para ocupar toda a largura do formulário */
+}
+
+
+.register-page .inputIcons {
+    font-size: 1.3rem;
+}
+
+.register-page input {
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid #dcdcdc;
+    padding: 20px;
+    font-size: 1.25rem;
+    transition: .3s ease;
+    outline: 2px solid transparent;
+    margin-bottom: 10px;
+}
+
+.register-page input:focus {
+    border: 2px solid transparent;
+    outline: 2px solid black;
+}
+
+.register-page input::-webkit-input-placeholder {
+    font-size: 1rem;
+}
+
+.register-page button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.register-page .containerBotao {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+
+
+.register-page .containerBotao .botao.cancel {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+
+}
+
+.register-page .containerBotao .botao.textcolor {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+}
+
+#btnGoBack{
+    height: 60px;
+    width: 150px;
+    border-radius: 15px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+
+#submit{
+    height: 60px;
+    width: 150px;
+    border-radius: 15px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.register-page p {
+    margin-top: 40px; /* Aumenta a margem superior para afastar do formulário */
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+}
+
+.register-page p a {
+    color: #ff0000; /* Cor vermelha */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+.register-page p a:hover {
+    color: #cc0000; /* Cor vermelha mais escura ao passar o mouse */
+    text-decoration: underline;
+}

@@ -18,7 +18,13 @@ Route::get('/pre-treino', function () {
     return view('pre-treino');
 });
 
+Route::get('/perfil', function () {
+    return view('perfil');
+});
 
+Route::get('/login', function () {
+    return view('login');
+});
 
 //cotroller
 use App\Http\Controllers\ProdutoController;
